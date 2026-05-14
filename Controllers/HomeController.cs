@@ -10,9 +10,9 @@ namespace MvcTodoApp.Controllers
 
         private static List<TaskItem> tasks = new List<TaskItem>
         {
-            new TaskItem { Id = 1, Title = "تدرب على MVC Design Pattern", IsComplete = false },
-            new TaskItem { Id = 2, Title = "تدرب على N-tier Architecture", IsComplete = false },
-            new TaskItem { Id = 3, Title = "تدرب على استخدام git", IsComplete = false },
+            // new TaskItem { Id = 1, Title = "تدرب على MVC Design Pattern", IsComplete = false },
+            // new TaskItem { Id = 2, Title = "تدرب على N-tier Architecture", IsComplete = false },
+            // new TaskItem { Id = 3, Title = "تدرب على استخدام git", IsComplete = false },
         };
 
         /// <summary>  .يعرض القائمة الرئيسية للمهام ///       
@@ -31,7 +31,7 @@ namespace MvcTodoApp.Controllers
         {
             if (!string.IsNullOrEmpty(title))
             {
-                int newId = tasks.Max(t => t.Id) + 1;
+                int newId = tasks.Any() ? tasks.Max(t => t.Id) + 1 : 1;
                 var newTask = new TaskItem { Id = newId, Title = title, IsComplete = false };
                 tasks.Add(newTask);
             }
@@ -61,9 +61,26 @@ namespace MvcTodoApp.Controllers
         public IActionResult EditTask(int id, string newTitle)
         {
             // TODO: ابحث عن المهمة باستخدام id 
+            var task = tasks.FirstOrDefault(t => t.Id == id);
             // TODO: تأكد من أن المهمة موجودة وأن newTitle  غير فارغ 
-            // TODO:  عدّل عنوان المهمة 
-
+            if (task != null && !string.IsNullOrEmpty(newTitle))
+            {
+                // TODO:  عدّل عنوان المهمة 
+                task.Title = newTitle;
+            }
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult DeletTask(int id, string newTitle)
+        {
+            // TODO: ابحث عن المهمة باستخدام id 
+            var task = tasks.FirstOrDefault(t => t.Id == id);
+            // TODO: تأكد من أن المهمة موجودة 
+            if (task != null)
+            {
+                // TODO:  احذف عنوان المهمة 
+                tasks.Remove(task);
+            }
             return RedirectToAction("Index");
         }
     }

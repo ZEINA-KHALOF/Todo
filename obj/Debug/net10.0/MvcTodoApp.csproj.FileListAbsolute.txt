@@ -95,3 +95,4 @@ D:\projectC#\MvcTodoApp\obj\Debug\net10.0\refint\MvcTodoApp.dll
 D:\projectC#\MvcTodoApp\obj\Debug\net10.0\MvcTodoApp.pdb
 D:\projectC#\MvcTodoApp\obj\Debug\net10.0\MvcTodoApp.genruntimeconfig.cache
 D:\projectC#\MvcTodoApp\obj\Debug\net10.0\ref\MvcTodoApp.dll
+D:\projectC#\MvcTodoApp\obj\Debug\net10.0\MvcTodoApp.sourcelink.json
