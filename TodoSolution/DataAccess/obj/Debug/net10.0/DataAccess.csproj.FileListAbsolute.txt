@@ -9,3 +9,4 @@ D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.dll
 D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\refint\DataAccess.dll
 D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.pdb
 D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\ref\DataAccess.dll
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.sourcelink.json

@@ -13,3 +13,4 @@ D:\projectC#\TodoSolution\Business\obj\Debug\net10.0\Business.dll
 D:\projectC#\TodoSolution\Business\obj\Debug\net10.0\refint\Business.dll
 D:\projectC#\TodoSolution\Business\obj\Debug\net10.0\Business.pdb
 D:\projectC#\TodoSolution\Business\obj\Debug\net10.0\ref\Business.dll
+D:\projectC#\TodoSolution\Business\obj\Debug\net10.0\Business.sourcelink.json
