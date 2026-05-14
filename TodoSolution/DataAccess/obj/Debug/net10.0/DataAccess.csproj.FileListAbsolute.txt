@@ -1,0 +1,11 @@
+D:\projectC#\TodoSolution\DataAccess\bin\Debug\net10.0\DataAccess.deps.json
+D:\projectC#\TodoSolution\DataAccess\bin\Debug\net10.0\DataAccess.dll
+D:\projectC#\TodoSolution\DataAccess\bin\Debug\net10.0\DataAccess.pdb
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.AssemblyInfoInputs.cache
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.AssemblyInfo.cs
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.dll
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\refint\DataAccess.dll
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\DataAccess.pdb
+D:\projectC#\TodoSolution\DataAccess\obj\Debug\net10.0\ref\DataAccess.dll
